@@ -9,3 +9,6 @@ venv/
 
 # Ignore requirements.txt if you don't want to include it in version control
 requirements.txt
+
+# Ignore readme
+readme.txt
