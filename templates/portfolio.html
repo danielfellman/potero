@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfirio Otero - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Raleway:300,400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="portfolio">
+                <div class="video-item">
+                    <h2 class="video-title">Todavia en Mi</h2>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/nStSe8vYxLA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <h2 class="video-title">Sabrosura</h2>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/nAepPHJYRFM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <h2 class="video-title">Mi Barca</h2>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/cYYdXsxJreI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Porfirio Otero. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/porfirio.otero" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/otero_porfirio" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@porfiriootero9368" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

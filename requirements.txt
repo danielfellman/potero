@@ -1,0 +1,16 @@
+# How to run the website locally
+
+1. Open your command-line interface (e.g., Terminal, Command Prompt).
+
+2. Navigate to the root directory of your project using the cd command: cd C:\Users\danie\Documents\GitHub\potero-website
+
+3. Activate your virtual environment if you haven't done so already. Depending on the virtual environment you're using, the command may vary. For example, with venv on Windows, you can use:
+venv\Scripts\activate
+
+4. Set the FLASK_APP environment variable to app.py using the appropriate command for your operating system:
+On Windows (Command Prompt): set FLASK_APP=app.py
+
+5. Run the Flask development server:
+flask run
+
+6. Open your web browser and visit http://127.0.0.1:5000/ to access the home page of your website.
